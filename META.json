@@ -1,0 +1,81 @@
+{
+   "abstract" : "Pure Perl Implementation of the Rijndael Cipher",
+   "author" : [
+      "Robert Stone <drzigman@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 5.025, CPAN::Meta::Converter version 2.142690",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Crypt-Rijndael-PP",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build" : "0.28"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.28"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::CPAN::Changes" : "0.19",
+            "Test::CPAN::Meta" : "0",
+            "Test::Kwalitee" : "1.12",
+            "Test::More" : "0",
+            "Test::NoTabs" : "0",
+            "Test::Pod" : "1.41"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Carp" : "0",
+            "Crypt::Random::Source" : "0",
+            "Data::Dumper" : "0",
+            "Exporter" : "0",
+            "Readonly" : "0",
+            "Smart::Comments" : "0",
+            "bytes" : "0",
+            "perl" : "5.010"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Crypt::CBC" : "0",
+            "Crypt::Rijndael" : "0",
+            "File::Spec" : "0",
+            "FindBin" : "0",
+            "IO::Handle" : "0",
+            "IPC::Open3" : "0",
+            "MooseX::Params::Validate" : "0",
+            "Storable" : "0",
+            "String::Random" : "0",
+            "Test::Exception" : "0",
+            "Test::More" : "0",
+            "lib" : "0",
+            "perl" : "5.010"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/drzigman/crypt-rijndael-pp/issues"
+      },
+      "homepage" : "http://search.cpan.org/dist/Crypt-Rijndael-PP",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/drzigman/crypt-rijndael-pp.git",
+         "web" : "https://github.com/drzigman/crypt-rijndael-pp"
+      }
+   },
+   "version" : "0.2.0"
+}
+
