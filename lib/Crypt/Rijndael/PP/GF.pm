@@ -9,7 +9,7 @@ use Carp;
 use Exporter 'import';
 our @EXPORT_OK = qw( gf_multiply );
 
-our $VERSION = '0.2.0'; # VERSION
+our $VERSION = '0.2.1'; # VERSION
 # ABSTRACT: Constants and Methods for Galois Field
 
 use Readonly;

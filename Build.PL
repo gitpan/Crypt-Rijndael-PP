@@ -18,7 +18,7 @@ my %module_build_args = (
     "Robert Stone <drzigman\@cpan.org>"
   ],
   "dist_name" => "Crypt-Rijndael-PP",
-  "dist_version" => "0.2.0",
+  "dist_version" => "0.2.1",
   "license" => "perl",
   "module_name" => "Crypt::Rijndael::PP",
   "recommends" => {},

@@ -14,7 +14,7 @@ use Crypt::Rijndael::PP::Debug qw( generate_printable_state );
 
 use Crypt::Random::Source qw(get_weak);
 
-our $VERSION = '0.2.0'; # VERSION
+our $VERSION = '0.2.1'; # VERSION
 # ABSTRACT: Pure Perl Implementation of the Rijndael Cipher
 
 use Readonly;
